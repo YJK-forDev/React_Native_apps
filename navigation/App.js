@@ -1,25 +1,45 @@
 import { StatusBar } from 'expo-status-bar';
 import { useState } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
+
 import * as Font from 'expo-font';
-import { NavigationContainer } from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
+//import stack navigator
+//import {createStackNavigator} from '@react-navigation/stack';
+import { NavigationContainer } from '@react-navigation/drawer';
+
 
 var text_st = {backgroundColor:'pink', padding:10, margin:10};
 var text_st_con = {padding:10, margin:10, fontWeight: 'bold'};
 var text_st_button = {color: 'purple', padding:10, margin:10, fontWeight: 'bold'};
-const Stack = createStackNavigator();
+// stack navigator
+//const Stack = createStackNavigator();
+
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
+      {
+      
+      
+      /* stack navigator type
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen}/>
         <Stack.Screen name="About" component={About}/>
         <Stack.Screen name="Count" component={Counter}/>
         <Stack.Screen name="Gugudan" component={Gugudan}/>
 
-      </Stack.Navigator>
+      </Stack.Navigator> */
+      
+      <Drawer.Navigator>
+        <Drawer.Screen name="Home" component={HomeScreen}/>
+        <Drawer.Screen name="About" component={About}/>
+        <Drawer.Screen name="Count" component={Counter}/>
+        <Drawer.Screen name="Gugudan" component={Gugudan}/>
+
+      </Drawer.Navigator>
+      
+      }
     </NavigationContainer>
   );
 }
