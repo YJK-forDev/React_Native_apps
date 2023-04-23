@@ -14,3 +14,11 @@
 
 <img src="https://user-images.githubusercontent.com/104751913/227108768-7f3e3da9-8d7b-4b5a-b897-11bf1e8823a0.png" width="200" height="400" /><img src="https://user-images.githubusercontent.com/104751913/227108774-1c7688f2-2776-4198-8375-a86dcc9bbfd5.png" width="200" height="400" />
 
+### Piano (Fifth Week)
+<img src="https://user-images.githubusercontent.com/104751913/233828442-e1e4f7f2-2d71-43e2-9b0c-65bd08c173f6.jpeg" width="200" height="400"/>
+
+### Dice (Sixth Week)
+<img src="https://user-images.githubusercontent.com/104751913/233828450-2ac6a811-cb1c-402a-b0e0-d73b0d457b94.jpeg"  width="200" height="400"/>
+
+### Dice Touchable (Seventh Week)
+<img src="https://user-images.githubusercontent.com/104751913/233828500-f530e017-33ab-4a11-90af-a9fec7605548.jpeg"  width="200" height="400"/>
